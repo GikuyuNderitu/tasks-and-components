@@ -1,0 +1,8 @@
+<div class="container">
+  <h4>Task Detail Component</h4>
+  <p>Task Title: {{title}}</p>
+  <div class="status-container" [ngClass]="{statusComplete: state}">
+    <button (click)='toggleStatus()'>{{stateText}}</button>
+    <h4>{{stateTitle}}</h4>
+  </div>
+</div>

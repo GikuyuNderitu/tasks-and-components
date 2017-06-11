@@ -1,0 +1,14 @@
+.container {
+    border: 1px dashed #555;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.status-container {
+    border: 1px solid #b33;
+    padding: 10px;
+}
+
+.statusComplete {
+    border: 2px solid #3b3;
+}
